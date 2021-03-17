@@ -6,9 +6,11 @@
 
 pip install virtualenv
 
+
 <!--activate virtual env-->
 
 .\env\sccripts\activate.ps1
+
 
 <!--install modules-->
 
@@ -17,10 +19,13 @@ pip install sqlalchemy
 
 set FLASK_APP=app.py
 
+
 <!--for development mode-->
 
 set FLASK_APP=ENV
 flask run
+
+
 
 #cmd for deploying website on heroku
 
